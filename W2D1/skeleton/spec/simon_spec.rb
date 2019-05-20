@@ -1,4 +1,6 @@
-require 'simon'
+require 'simon.rb'
+require "spec_helper.rb"
+
 
 describe Simon do
   subject(:simon) { Simon.new }
